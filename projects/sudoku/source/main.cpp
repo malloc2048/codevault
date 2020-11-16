@@ -1,6 +1,7 @@
 #include "sudoku.h"
 
 int main() {
+    // TODO: add being able to get the initial board layout from command line and a file
     const std::map<uint32_t, uint32_t> initial_values {
         {0, 9}, {3, 5}, {7, 8},
         {10, 8}, {11, 7}, {13, 3}, {14, 1}, {15, 4}, {16, 5},
