@@ -1,6 +1,7 @@
 # Original Exercise Description:
-You are given a deck containing n cards.  While holding the deck:
+You are given a deck containing n cards.  
 
+While holding the deck:
 1. Take the top card off of the deck and create a new deck on the table, putting the cards on top of this new deck.
 2. Take the next card off the top and put it on the bottom of the deck in your hand.
 3. Continue steps 1 and 2 until all cards are on the table.  This is a round.
