@@ -3,6 +3,7 @@ This repo contains some of the side projects and academic coding problems I have
 I have forgotten why some of these projects were implemented, some are from various interviews throughout the years.
 Some are probably just random things implemented for fun.
 
+Some of these are probably pretty old projects so the style and C++ standard may be vary wildly.
 The projects in this repo are all in C++ (I may make a second repo for porting to other languages)
 
 ## Summary of projects
@@ -23,6 +24,9 @@ Originally created as an exercise for Blizzard Entertainment.
 ### Code Fights
 Implementations for the challenges and exercises provided by the code fights website
 Note: The name has changed to [Code Signal](https://codesignal.com/)
+
+### [Invaders](projects/invaders/readme.md)
+A Space Invaders emulator for the original arcade ROM
 
 ### QuantLab
 A stock ticker application originally implemented for an interview with [QuantLab](https://www.quantlab.com/)
