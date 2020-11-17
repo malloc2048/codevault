@@ -1,9 +1,9 @@
-#Space Invaders Emulator
+# Space Invaders Emulator
 This is my attempt at an emulator for the classic arcade game Space Invaders.
 
 [Detailed Design](documents/design/invaders.md) 
 
-##Dependencies
+## Dependencies
 * Google test for unit test build
 * SDL 2.0
 * CMake
