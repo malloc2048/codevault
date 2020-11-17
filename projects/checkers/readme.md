@@ -1,7 +1,6 @@
 # Description
 A CPP Networked Checkers Game
 
-
 # Building
 Clone this git repo
 ```
