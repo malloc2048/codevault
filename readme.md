@@ -17,7 +17,7 @@ Stock tracking
 An implementation for performing a byte swap on a number.
 Not sure why I implemented this but it was laying around.
 
-### [Checkers](projects/checkers/readme.md)
+### [Checkers](projects/checkers)
 A simple networked checkers game.  
 Originally created as an exercise for Blizzard Entertainment. 
 
@@ -25,16 +25,16 @@ Originally created as an exercise for Blizzard Entertainment.
 Implementations for the challenges and exercises provided by the code fights website
 Note: The name has changed to [Code Signal](https://codesignal.com/)
 
-### [Invaders](projects/invaders/readme.md)
+### [Invaders](projects/invaders)
 A Space Invaders emulator for the original arcade ROM
 
 ### QuantLab
 A stock ticker application originally implemented for an interview with [QuantLab](https://www.quantlab.com/)
 
-### [Shuffle](projects/shuffle/readme.md)
+### [Shuffle](projects/shuffle)
 An application to determine how many iterations it would take to get a shuffled card deck back to an original state.
 
-### [SpaceX](projects/spacex/readme.md)
+### [SpaceX](projects/spacex)
 Couple of exercises implemented for SpaceX
 
 ### Sudoku
