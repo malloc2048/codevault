@@ -31,6 +31,13 @@ A Space Invaders emulator for the original arcade ROM
 ### QuantLab
 A stock ticker application originally implemented for an interview with [QuantLab](https://www.quantlab.com/)
 
+## Security Fix
+Not sure where this one came from.
+I think the original idea was that there was a security flaw with all the user input 
+and the exercise was to fix the flaw(s)
+
+Has been re-written to use more C++ then C so the original intent is lost.
+
 ### [Shuffle](projects/shuffle)
 An application to determine how many iterations it would take to get a shuffled card deck back to an original state.
 
