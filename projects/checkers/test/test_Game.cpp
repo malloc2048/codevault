@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
 
-#include "Board.h"
+#include "board.h"
 
 
 class GameTest : public testing::Test

@@ -1,6 +1,6 @@
-#include "Game.h"
-#include "TcpClient.h"
-#include "TcpServer.h"
+#include "game.h"
+#include "tcp_client.h"
+#include "tcp_server.h"
 
 int main(int argc, char** argv)
 {

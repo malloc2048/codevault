@@ -1,7 +1,7 @@
 #ifndef CHECKERS_TCPSERVER_H
 #define CHECKERS_TCPSERVER_H
 
-#include "Server.h"
+#include "server.h"
 #include <cstdint>
 #include "boost/asio.hpp"
 

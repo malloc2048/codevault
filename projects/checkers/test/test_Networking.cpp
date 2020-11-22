@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
-#include "TcpServer.h"
-#include "TcpClient.h"
+#include "tcp_server.h"
+#include "tcp_client.h"
 
 #include <thread>
 

@@ -26,7 +26,7 @@ protected:
     uint32_t calculate_sum(const std::vector<uint32_t>& indexes);
 
 private:
-    Board board { 81 };
+    board board {81 };
 
     const uint32_t block_sum {1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9};
     const std::vector<std::vector<uint32_t>> rows {

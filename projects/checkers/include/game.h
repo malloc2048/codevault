@@ -2,9 +2,9 @@
 #define CHECKERS_GAME_H
 
 #include <memory>
-#include "Client.h"
-#include "Server.h"
-#include "Board.h"
+#include "client.h"
+#include "server.h"
+#include "board.h"
 
 class Game
 {

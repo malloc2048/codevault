@@ -1,7 +1,7 @@
 #ifndef CHECKERS_TCPCLIENT_H
 #define CHECKERS_TCPCLIENT_H
 
-#include "Client.h"
+#include "client.h"
 #include <string>
 #include "boost/asio.hpp"
 

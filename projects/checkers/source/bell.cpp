@@ -1,4 +1,4 @@
-#include "Cell.h"
+#include "bell.h"
 
 Cell::Cell() : state(EMPTY)
 {
