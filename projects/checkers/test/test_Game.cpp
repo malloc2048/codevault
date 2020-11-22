@@ -102,58 +102,58 @@ protected:
 TEST_F(GameTest, GameInit)
 {
     SetupInitBoardExpected();
-    ASSERT_STREQ(EXPECTED_BOARD_STR.str().c_str(), game.getBoardString().c_str());
+    ASSERT_STREQ(EXPECTED_BOARD_STR.str().c_str(), game.get_board_string().c_str());
 }
 
 TEST_F(GameTest, ProcessMove)
 {
     SetupMoveBoardExpected();
-    game.processMove(17, 24);
-    ASSERT_STREQ(EXPECTED_BOARD_STR.str().c_str(), game.getBoardString().c_str());
+    game.process_move(17, 24);
+    ASSERT_STREQ(EXPECTED_BOARD_STR.str().c_str(), game.get_board_string().c_str());
 }
 
 TEST_F(GameTest, BlackJumpRed)
 {
     SetupBlackJumpRed_BoardExpected();
 
-    game.processMove(19, 26);
-    game.processMove(40, 33);
-    game.processJump(33, 19);
-    ASSERT_STREQ(EXPECTED_BOARD_STR.str().c_str(), game.getBoardString().c_str());
+    game.process_move(19, 26);
+    game.process_move(40, 33);
+    game.process_jump(33, 19);
+    ASSERT_STREQ(EXPECTED_BOARD_STR.str().c_str(), game.get_board_string().c_str());
 }
 
 TEST_F(GameTest, IllegalMove_BoardUnchanged)
 {
     SetupInitBoardExpected();
 
-    game.processJump(1, 0);
-    game.processMove(22, 4);
-    game.processMove(8, 16);
+    game.process_jump(1, 0);
+    game.process_move(22, 4);
+    game.process_move(8, 16);
 
-    ASSERT_STREQ(EXPECTED_BOARD_STR.str().c_str(), game.getBoardString().c_str());
+    ASSERT_STREQ(EXPECTED_BOARD_STR.str().c_str(), game.get_board_string().c_str());
 }
 
 TEST_F(GameTest, FindMoveBlack)
 {
-    auto movePositions = game.findMove(Cell::BLACK);
+    auto movePositions = game.find_move(Cell::BLACK);
     ASSERT_EQ(40, movePositions.first);
     ASSERT_EQ(33, movePositions.second);
 }
 
 TEST_F(GameTest, FindMoveWhite)
 {
-    auto movePositions = game.findMove(Cell::WHITE);
+    auto movePositions = game.find_move(Cell::WHITE);
     ASSERT_EQ(17, movePositions.first);
     ASSERT_EQ(24, movePositions.second);
 }
 
 TEST_F(GameTest, FindJump_None)
 {
-    auto whiteJump = game.findJump(Cell::WHITE);
+    auto whiteJump = game.find_jump(Cell::WHITE);
     ASSERT_EQ(-1, whiteJump.first);
     ASSERT_EQ(-1, whiteJump.second);
 
-    auto blackJump = game.findJump(Cell::BLACK);
+    auto blackJump = game.find_jump(Cell::BLACK);
     ASSERT_EQ(-1, blackJump.first);
     ASSERT_EQ(-1, blackJump.second);
 }
