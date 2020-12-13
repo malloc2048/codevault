@@ -25,9 +25,6 @@ Originally created as an exercise for Blizzard Entertainment.
 Implementations for the challenges and exercises provided by the code fights website
 Note: The name has changed to [Code Signal](https://codesignal.com/)
 
-### [Invaders](projects/invaders)
-A Space Invaders emulator for the original arcade ROM
-
 ### QuantLab
 A stock ticker application originally implemented for an interview with [QuantLab](https://www.quantlab.com/)
 
