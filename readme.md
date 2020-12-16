@@ -9,10 +9,11 @@ Note that some of the projects are executable while others are built as a librar
 
 Any documentation for a project can be found in documentation/[project_name] directories.
 
-* [blizzard](documentation/blizzard/blizzard.md)    - Blizzard interview exercise
-* [facebook](documentation/facebook/facebook.md)    - Facebook interview exercise
-* [quantlab](documentation/quantlabs/quantlabs.md)  - Quantlab interview exercise
-* [shuffle](documentation/shuffle/shuffle.md)       - Do not remember the original source of this interview exercise
-* [spacex](documentation/spacex/spacex.md)          - SpaceX interview exercise
-* [sudoku](documentation/sudoku/sudoku.md)          - Sudoku solver
-* [zenimax](documentation/zenimax/zenimax.md)       - Zenimax interview exercise
+* [blizzard](documentation/blizzard/blizzard.md)            - Blizzard interview exercise
+* [code_fights](documentation/code_fights/code_fights.md)   - Code Fights (now code signal) exercise
+* [facebook](documentation/facebook/facebook.md)            - Facebook interview exercise
+* [quantlab](documentation/quantlabs/quantlabs.md)          - Quantlab interview exercise
+* [shuffle](documentation/shuffle/shuffle.md)               - Do not remember the original source of this interview exercise
+* [spacex](documentation/spacex/spacex.md)                  - SpaceX interview exercise
+* [sudoku](documentation/sudoku/sudoku.md)                  - Sudoku solver
+* [zenimax](documentation/zenimax/zenimax.md)               - Zenimax interview exercise
