@@ -1,3 +1,6 @@
+# NOTE: THIS IS AN OUT DATED README AND NEEDS TO BE UPDATED
+# DO NOT RELY ON ANY INFORMATION IN IT
+
 # Portfolio
 This repo contains various random code exercises I have done over the years. There is not a particular theme or common
 purpose to the various projects.
