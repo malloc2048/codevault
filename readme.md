@@ -1,9 +1,6 @@
-# NOTE: THIS IS AN OUT DATED README AND NEEDS TO BE UPDATED
-# DO NOT RELY ON ANY INFORMATION IN IT
-
 # Portfolio
-This repo contains various random code exercises I have done over the years. There is not a particular theme or common
-purpose to the various projects.
+This repo contains various random code exercises I have done over the years. 
+There is not a particular theme or common purpose to the various projects.
 
 # List of Projects
 The source code can be found in the source/[project_name] directories.
@@ -12,11 +9,4 @@ Note that some of the projects are executable while others are built as a librar
 
 Any documentation for a project can be found in documentation/[project_name] directories.
 
-* [blizzard](documentation/blizzard/blizzard.md)            - Blizzard interview exercise
-* [code_fights](documentation/code_fights/code_fights.md)   - Code Fights (now code signal) exercise
-* [facebook](documentation/facebook/facebook.md)            - Facebook interview exercise
-* [quantlab](documentation/quantlabs/quantlabs.md)          - Quantlab interview exercise
-* [shuffle](documentation/shuffle/shuffle.md)               - Do not remember the original source of this interview exercise
-* [spacex](documentation/spacex/spacex.md)                  - SpaceX interview exercise
-* [sudoku](documentation/sudoku/sudoku.md)                  - Sudoku solver
-* [zenimax](documentation/zenimax/zenimax.md)               - Zenimax interview exercise
+* [chacker](source/checkers/checkers.md)
