@@ -9,4 +9,4 @@ Note that some of the projects are executable while others are built as a librar
 
 Any documentation for a project can be found in documentation/[project_name] directories.
 
-* [chacker](source/checkers/checkers.md)
+* [checkers](source/checkers/checkers.md)
