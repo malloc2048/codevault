@@ -1,5 +1,5 @@
-#ifndef BLIZZARD_BOARD_H
-#define BLIZZARD_BOARD_H
+#ifndef CHECKERS_BOARD_H
+#define CHECKERS_BOARD_H
 
 #include <map>
 #include <list>

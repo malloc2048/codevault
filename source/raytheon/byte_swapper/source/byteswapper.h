@@ -1,5 +1,5 @@
-#ifndef CODESIGNAL_BYTESWAPPER_H
-#define CODESIGNAL_BYTESWAPPER_H
+#ifndef BYTESWAPPER_H
+#define BYTESWAPPER_H
 
 #include <cstdint>
 

@@ -1,5 +1,5 @@
-#ifndef BLIZZARD_GAMESQUARE_H
-#define BLIZZARD_GAMESQUARE_H
+#ifndef CHECKER_CELL_H
+#define CHECKER_CELL_H
 
 #include <string>
 
