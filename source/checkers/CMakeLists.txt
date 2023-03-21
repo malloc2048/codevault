@@ -1,0 +1,17 @@
+include_directories(${CMAKE_CURRENT_LIST_DIR}/source)
+
+file(GLOB checkers_source ${CMAKE_CURRENT_LIST_DIR}/source/*)
+file(GLOB_RECURSE checkers_tests ${CMAKE_CURRENT_LIST_DIR}/test/*)
+list(REMOVE_ITEM checkers_source ${CMAKE_CURRENT_LIST_DIR}/source/main.cpp)
+
+add_executable(checkers_ut ${checkers_source} ${checkers_tests})
+if (WIN32)
+    message("Windows build")
+    target_link_libraries(checkers_ut boost_system gtestd gtest_maind pthread ws2_32)
+else()
+    message("Unix/Linux build")
+    target_link_libraries(checkers_ut boost_system gtest gtest_main pthread)
+endif ()
+
+add_executable(checkers ${checkers_source} ${CMAKE_CURRENT_LIST_DIR}/source/main.cpp)
+target_link_libraries(checkers boost_system pthread ws2_32)

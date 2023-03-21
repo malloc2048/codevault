@@ -7,4 +7,5 @@ set(CMAKE_CXX_FLAGS "-Wall")
 link_directories(${CMAKE_CURRENT_LIST_DIR}/dependencies/lib)
 include_directories(${CMAKE_CURRENT_LIST_DIR}/dependencies/include)
 
+include(${CMAKE_CURRENT_LIST_DIR}/source/checkers/CMakeLists.txt)
 include(${CMAKE_CURRENT_LIST_DIR}/source/code_signal/CMakeLists.txt)
