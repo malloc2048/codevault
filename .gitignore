@@ -1,3 +1,5 @@
 /bin/
 /.idea/
 /cmake-build-debug/
+/source.bak/
+/needs_to_move/
