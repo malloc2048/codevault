@@ -1,12 +1,12 @@
+#include "trees/tree.h"
 #include <gtest/gtest.h>
-#include "trees.h"
 
-trees::Tree<int>* makeTreeNode(int value) {
-    auto tree = new trees::Tree<int>(value);
+Node<int>* makeTreeNode(int value) {
+    auto tree = new Node<int>(value);
     return tree;
 }
 
-trees::Tree<int>* makeTree(int val) {
+Node<int>* makeTree(int val) {
     auto tree = makeTreeNode(val); // this is root
 
     tree->left = makeTreeNode(1);
@@ -22,18 +22,18 @@ trees::Tree<int>* makeTree(int val) {
     return tree;
 }
 
-TEST(InterviewTreesTest, HasPathWithGivenSum) {
+TEST(TreesTest, HasPathWithGivenSum) {
     auto tree = makeTree(4);
 
     // tree is nullptr
-    ASSERT_FALSE(trees::hasPathWithGivenSum(nullptr, 2));
+    ASSERT_FALSE(Tree::has_path_with_given_sum(nullptr, 2));
 
     // Path exists
-    ASSERT_TRUE(trees::hasPathWithGivenSum(tree, 7));
+    ASSERT_TRUE(Tree::has_path_with_given_sum(tree, 7));
 
     // No Path
-    ASSERT_FALSE(trees::hasPathWithGivenSum(tree, 27));
+    ASSERT_FALSE(Tree::has_path_with_given_sum(tree, 27));
 
     // Total exists in subtree, but not complete root->leaf
-    ASSERT_FALSE(trees::hasPathWithGivenSum(tree, 3));
+    ASSERT_FALSE(Tree::has_path_with_given_sum(tree, 3));
 }
