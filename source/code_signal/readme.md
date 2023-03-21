@@ -1,4 +1,6 @@
 # Code Signal
+These are some random exercises pulled from [Code Signal](https://codesignal.com/developers/)
+
 ## RPG Game
 You are playing an RPG game.  
 Currently your experience points (XP) total is equal to experience.  
