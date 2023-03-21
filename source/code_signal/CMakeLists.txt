@@ -1,6 +1,7 @@
 include_directories(${CMAKE_CURRENT_LIST_DIR}/source)
 file(GLOB tests ${CMAKE_CURRENT_LIST_DIR}/test/*.cpp)
 file(GLOB rpg-src ${CMAKE_CURRENT_LIST_DIR}/source/rpg/*.cpp)
+file(GLOB intro-src ${CMAKE_CURRENT_LIST_DIR}/source/intro/*.cpp)
 file(GLOB power-src ${CMAKE_CURRENT_LIST_DIR}/source/power/*.cpp)
 file(GLOB trees-src ${CMAKE_CURRENT_LIST_DIR}/source/trees/*.cpp)
 file(GLOB arrays-src ${CMAKE_CURRENT_LIST_DIR}/source/arrays/*.cpp)
@@ -11,6 +12,7 @@ file(GLOB linked-list-src ${CMAKE_CURRENT_LIST_DIR}/source/linked_list/*.cpp)
 add_executable(all-tests
     ${tests}
     ${rpg-src}
+    ${intro-src}
     ${power-src}
     ${trees-src}
     ${arrays-src}
