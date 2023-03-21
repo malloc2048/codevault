@@ -2,7 +2,7 @@
 /// @file traits.hpp
 /// @brief this file contains the metaprogramming classes  compare_iter and
 ///         enable_if_not_integral
-/// @author Copyright(c) 2016 Francisco Jose Tapia (fjtapia@gmail.com )\n
+/// @author Copyright (c) 2016 Francisco Jose Tapia (fjtapia@gmail.com )\n
 ///         Distributed under the Boost Software License, Version 1.0.\n
 ///         ( See accompanying file LICENSE_1_0.txt or copy at
 ///           http://www.boost.org/LICENSE_1_0.txt  )

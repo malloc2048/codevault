@@ -1,7 +1,8 @@
 #ifndef BOOST_SERIALIZATION_STATIC_WARNING_HPP
 #define BOOST_SERIALIZATION_STATIC_WARNING_HPP
 
-//  (C) Copyright Robert Ramey 2003. Jonathan Turkanis 2004.
+//  (C) Copyright Robert Ramey 2003.
+//  (C) Copyright Jonathan Turkanis 2004.
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // MS compatible compilers support #pragma once
@@ -16,7 +17,7 @@
 /*
  Revision history:
    15 June  2003 - Initial version.
-   31 March 2004 - improved diagnostic messages and portability 
+   31 March 2004 - improved diagnostic messages and portability
                    (Jonathan Turkanis)
    03 April 2004 - works on VC6 at class and namespace scope
                  - ported to DigitalMars
@@ -49,8 +50,8 @@
 // 3. static_warning_impl<B>::type overloads operator& to return a dynamically
 //    allocated int pointer only is B is true, so  returning the address of an
 //    automatic variable of this type generates a warning iff B is fasle.
-// 4. static_warning_impl<B>::STATIC_WARNING is decalred as a struct iff B is 
-//    false. 
+// 4. static_warning_impl<B>::STATIC_WARNING is decalred as a struct iff B is
+//    false.
 // 5. static_warning_impl<B>::type is incomplete iff B is false, so deleting a
 //    pointer to this type generates a warning iff B is false.
 //
@@ -72,7 +73,7 @@
 namespace boost {
 namespace serialization {
 
-template<int L> 
+template<int L>
 struct BOOST_SERIALIZATION_STATIC_WARNING_LINE{};
 
 template<bool B, int L>
@@ -97,7 +98,7 @@ struct BOOST_SERIALIZATION_SS {};
 #define BOOST_SERIALIZATION_BSW(B, L) \
     typedef boost::serialization::BOOST_SERIALIZATION_SS< \
         sizeof( boost::serialization::static_warning_test< B, L > ) \
-    > BOOST_JOIN(STATIC_WARNING_LINE, L) BOOST_ATTRIBUTE_UNUSED; 
+    > BOOST_JOIN(STATIC_WARNING_LINE, L) BOOST_ATTRIBUTE_UNUSED;
 #define BOOST_STATIC_WARNING(B) BOOST_SERIALIZATION_BSW(B, __LINE__)
 
 #endif // BOOST_SERIALIZATION_STATIC_WARNING_HPP

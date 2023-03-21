@@ -1,4 +1,5 @@
-//  Copyright (c) 2006 Xiaogang Zhang, 2015 John Maddock.
+//  Copyright (c) 2006 Xiaogang Zhang
+//  Copyright (c) 2015 John Maddock
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -119,7 +120,7 @@ T ellint_rd_imp(T x, T y, T z, const Policy& pol)
       //
       T pt = (x0 + 3 * y0) / (4 * z * (x0 + y0));
       //
-      // Since we've moved the demoninator from eq.47 inside the expression, we
+      // Since we've moved the denominator from eq.47 inside the expression, we
       // need to also scale "sum" by the same value:
       //
       pt -= sum / (z * (y - z));

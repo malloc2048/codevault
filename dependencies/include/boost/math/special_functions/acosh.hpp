@@ -1,6 +1,7 @@
 //    boost asinh.hpp header file
 
-//  (C) Copyright Eric Ford 2001 & Hubert Holin.
+//  (C) Copyright Eric Ford 2001.
+//  (C) Copyright Hubert Holin 2001.
 //  (C) Copyright John Maddock 2008.
 //  Distributed under the Boost Software License, Version 1.0. (See
 //  accompanying file LICENSE_1_0.txt or copy at
@@ -53,7 +54,7 @@ namespace boost
                 else if(x < 1.5f)
                 {
                    // This is just a rearrangement of the standard form below
-                   // devised to minimse loss of precision when x ~ 1:
+                   // devised to minimise loss of precision when x ~ 1:
                    T y = x - 1;
                    return boost::math::log1p(y + sqrt(y * y + 2 * y), pol);
                 }

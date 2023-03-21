@@ -12,7 +12,7 @@
 // (geolib/GGL), copyright (c) 1995-2010 Geodan, Amsterdam, the Netherlands.
 
 // Use, modification and distribution is subject to the Boost Software License,
-// Version 1.Dimension. (See accompanying file LICENSE_1_0.txt or copy at
+// Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
 #ifndef BOOST_GEOMETRY_ALGORITHMS_DETAIL_POINT_ON_BORDER_HPP

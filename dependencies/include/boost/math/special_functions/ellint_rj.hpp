@@ -1,4 +1,5 @@
-//  Copyright (c) 2006 Xiaogang Zhang, 2015 John Maddock
+//  Copyright (c) 2006 Xiaogang Zhang
+//  Copyright (c) 2015 John Maddock
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -221,7 +222,7 @@ T ellint_rj_imp(T x, T y, T z, T p, const Policy& pol)
       if((En < -0.5) && (En > -1.5))
       {
          //
-         // Occationally En ~ -1, we then have no means of calculating
+         // Occasionally En ~ -1, we then have no means of calculating
          // RC(1, 1+En) without terrible cancellation error, so we
          // need to get to 1+En directly.  By substitution we have
          //

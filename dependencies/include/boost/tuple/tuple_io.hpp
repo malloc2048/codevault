@@ -1,7 +1,7 @@
 // tuple_io.hpp --------------------------------------------------------------
 
 // Copyright (C) 2001 Jaakko Jarvi (jaakko.jarvi@cs.utu.fi)
-//               2001 Gary Powell (gary.powell@sierra.com)
+// Copyright (C) 2001 Gary Powell (gary.powell@sierra.com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
@@ -102,7 +102,7 @@ class tuple_manipulator {
   CharType f_c;
 public:
   explicit tuple_manipulator(detail::format_info::manipulator_type m,
-                             const char c = 0)
+                             CharType c = CharType())
      : mt(m), f_c(c) {}
 
    template<class CharTrait>
@@ -259,7 +259,7 @@ extract_and_check_delimiter(
 
 #if defined (BOOST_NO_STD_LOCALE)
   const bool is_delimiter = !isspace(d);
-#elif defined ( __BORLANDC__ )
+#elif defined ( BOOST_BORLANDC )
   const bool is_delimiter = !std::use_facet< std::ctype< CharType > >
     (is.getloc() ).is( std::ctype_base::space, d);
 #else
