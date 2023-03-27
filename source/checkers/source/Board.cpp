@@ -1,7 +1,7 @@
-#include "Board.h"
-
+#include <array>
 #include <vector>
 #include <sstream>
+#include "Board.h"
 
 const std::string Board::COLUMN_SEPARATOR("|");
 const std::string Board::SEPARATOR_STR("\t|-------------------------------|\n");
