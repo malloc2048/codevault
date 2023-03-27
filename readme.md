@@ -1,6 +1,6 @@
-# Portfolio
-This repo contains various random code exercises I have done over the years. 
-There is not a particular theme or common purpose to the various projects.
+# Mathom House
+Welocome to the Mathom house, a repository for the various random code exercises I have done over the years. 
+Like the musem it is named after, there is no particular theme or common purpose to the various projects.
 
 # List of Projects
 The source code can be found in the source/[project_name] directories.
