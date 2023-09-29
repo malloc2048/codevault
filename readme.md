@@ -9,7 +9,7 @@ Note that some of the projects are executable while others are built as a librar
 
 Any documentation for a project can be found in documentation/[project_name] directories.
 
-* [Code Signal](source/code_signal/readme.md)
+* [Code Signal](code_signal/readme.md)
 
 # Dependencies
 * GTest
